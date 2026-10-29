@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pizza da Edileuza · Vitória do Mearim – MA</title>
+  <meta name="description" content="Pizzas grandes por R$ 55, inteiras ou meio a meio. Monte seu pedido, envie pelo WhatsApp e retire no balcão. Vitória do Mearim – MA.">
+  <meta name="theme-color" content="#F39C12">
+
+  <!-- Compartilhamento (WhatsApp, Instagram, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Pizza da Edileuza">
+  <meta property="og:description" content="Pizzas grandes por R$ 55, inteiras ou meio a meio. Peça pelo WhatsApp e retire no balcão.">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ CABEÇALHO ============ -->
+  <header class="topbar">
+    <nav class="container nav" aria-label="Principal">
+      <a href="#topo" class="logo">
+        <img src="assets/favicon.svg" alt="" width="34" height="34">
+        <span>Pizza da Edileuza</span>
+      </a>
+      <div class="nav-links">
+        <a href="#como-pedir">Como pedir</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#pedido">Seu pedido</a>
+        <a href="#contato">Contato</a>
+        <a href="https://wa.me/5598988716178" class="btn btn-primary btn-sm" data-whatsapp>Pedir agora</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section id="topo" class="hero">
+      <svg class="leaf leaf-1" viewBox="0 0 100 60" aria-hidden="true"><use href="#icon-leaf"/></svg>
+      <svg class="leaf leaf-2" viewBox="0 0 100 60" aria-hidden="true"><use href="#icon-leaf"/></svg>
+      <svg class="leaf leaf-3" viewBox="0 0 100 60" aria-hidden="true"><use href="#icon-leaf"/></svg>
+
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <span class="badge hero-rise" style="--delay: .1s">Massa de fermentação lenta · Forno a lenha</span>
+          <h1 class="hero-rise" style="--delay: .25s">Pizza de verdade, saindo quentinha do forno.</h1>
+          <p class="hero-rise" style="--delay: .4s">Borda aerada, molho de tomate da casa e ingredientes frescos. Peça pelo WhatsApp e retire quentinha no balcão.</p>
+
+          <div class="hero-actions hero-rise" style="--delay: .55s">
+            <a href="https://wa.me/5598988716178" class="btn btn-primary" data-whatsapp>
+              <svg class="icon" aria-hidden="true"><use href="#icon-whatsapp"/></svg>
+              Pedir pelo WhatsApp
+            </a>
+            <a href="#cardapio" class="btn btn-outline">Ver cardápio</a>
+          </div>
+
+          <ul class="hero-info">
+            <li>
+              <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-clock"/></svg>
+              Todos os dias, das 18h às 22h
+            </li>
+            <li>
+              <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-pin"/></svg>
+              <a class="loc-link" href="https://www.google.com/maps/search/?api=1&amp;query=Pizza+da+Edileuza%2C+BR-222%2C+93%2C+Vit%C3%B3ria+do+Mearim+-+MA%2C+65350-000" target="_blank" rel="noopener">BR-222, nº 93 · Vitória do Mearim – MA</a>
+            </li>
+            <li>
+              <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-bag"/></svg>
+              Somente retirada no balcão
+            </li>
+          </ul>
+        </div>
+
+        <!-- Pizza animada: cai girando, recebe queijo, calabresa, manjericão e é fatiada -->
+        <div class="hero-art">
+          <svg class="pz-anim" role="img" aria-label="Ilustração animada de uma pizza de calabresa e manjericão" viewBox="0 -80 420 500">
+            <defs>
+              <radialGradient id="pz-glow-gradient" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#F39C12" stop-opacity="0.55"/>
+                <stop offset="100%" stop-color="#F39C12" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <circle class="pz-glow" cx="210" cy="210" r="225" fill="url(#pz-glow-gradient)"/>
+            <g aria-hidden="true" fill="none" stroke="#E2B887" stroke-width="5" stroke-linecap="round">
+              <path class="pz-steam" style="animation-delay: 2.6s" d="M160 30c-14-18 14-30 0-48s14-30 0-46"/>
+              <path class="pz-steam" style="animation-delay: 3.4s" d="M210 20c-14-18 14-30 0-48s14-30 0-46"/>
+              <path class="pz-steam" style="animation-delay: 4.2s" d="M260 30c-14-18 14-30 0-48s14-30 0-46"/>
+            </g>
+            <g class="pz-turn">
+              <g class="pz-in">
+                <circle cx="210" cy="210" r="200" fill="#9C6430"/>
+                <circle cx="210" cy="210" r="172" fill="#D99A4E"/>
+                <circle cx="210" cy="210" r="150" fill="#C7361D"/>
+                <path class="pz-cheese" d="M90 190c30-20 60 10 90-5s50-30 90-10 40 40 60 20c10 40-10 90-40 110-40 30-130 30-170-10-30-30-40-70-30-105z" fill="#F3DEB0" opacity="0.92"/>
+                <g class="pz-top" style="animation-delay: 1s"><circle cx="150" cy="150" r="20" fill="#8E2412"/><circle cx="150" cy="150" r="13" fill="#B3402A"/></g>
+                <g class="pz-top" style="animation-delay: 1.12s"><circle cx="265" cy="140" r="20" fill="#8E2412"/><circle cx="265" cy="140" r="13" fill="#B3402A"/></g>
+                <g class="pz-top" style="animation-delay: 1.24s"><circle cx="285" cy="270" r="20" fill="#8E2412"/><circle cx="285" cy="270" r="13" fill="#B3402A"/></g>
+                <g class="pz-top" style="animation-delay: 1.36s"><circle cx="135" cy="265" r="18" fill="#8E2412"/><circle cx="135" cy="265" r="11" fill="#B3402A"/></g>
+                <g class="pz-top" style="animation-delay: 1.48s"><circle cx="210" cy="225" r="20" fill="#8E2412"/><circle cx="210" cy="225" r="13" fill="#B3402A"/></g>
+                <g class="pz-leaf" style="animation-delay: 1.6s"><ellipse cx="200" cy="160" rx="16" ry="8" fill="#3F7D3A" transform="rotate(-30 200 160)"/></g>
+                <g class="pz-leaf" style="animation-delay: 1.72s"><ellipse cx="250" cy="205" rx="16" ry="8" fill="#3F7D3A" transform="rotate(25 250 205)"/></g>
+                <g class="pz-leaf" style="animation-delay: 1.84s"><ellipse cx="175" cy="300" rx="16" ry="8" fill="#3F7D3A" transform="rotate(-10 175 300)"/></g>
+                <g class="pz-leaf" style="animation-delay: 1.96s"><ellipse cx="300" cy="215" rx="13" ry="7" fill="#3F7D3A" transform="rotate(60 300 215)"/></g>
+                <g stroke="#5A3A1E" stroke-width="3" opacity="0.4" fill="none">
+                  <path class="pz-cut" d="M210 38v344"/>
+                  <path class="pz-cut" style="animation-delay: 2.25s" d="M38 210h344"/>
+                  <path class="pz-cut" style="animation-delay: 2.4s" d="M88 88l244 244"/>
+                  <path class="pz-cut" style="animation-delay: 2.55s" d="M332 88L88 332"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DIFERENCIAIS ============ -->
+    <section class="container features" aria-label="Diferenciais">
+      <article class="feature">
+        <svg class="icon icon-lg" aria-hidden="true"><use href="#icon-flame"/></svg>
+        <h3>Massa caseira</h3>
+        <p>Assada em alta temperatura para a borda ficar leve e levemente tostada.</p>
+      </article>
+      <article class="feature">
+        <svg class="icon icon-lg" aria-hidden="true"><use href="#icon-clock"/></svg>
+        <h3>Massa feita no dia</h3>
+        <p>Fermentação lenta deixa a massa mais saborosa e fácil de digerir.</p>
+      </article>
+      <article class="feature">
+        <svg class="icon icon-lg" aria-hidden="true"><use href="#icon-basil"/></svg>
+        <h3>Ingredientes caseiros</h3>
+        <p>Molho especial da casa e recheio caprichado em todos os sabores.</p>
+      </article>
+    </section>
+
+    <!-- ============ COMO PEDIR ============ -->
+    <section id="como-pedir" class="steps-section">
+      <div class="container steps-inner">
+        <h2>Pedir é fácil</h2>
+        <ol class="steps">
+          <li>
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>Escolha no cardápio</h3>
+            <p>Toque em “Escolher” no sabor que quiser. Escolha dois para fazer meio a meio.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>Chame no WhatsApp</h3>
+            <p>Seu pedido já vai escrito. A gente confirma o valor e o horário de retirada.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>Retire quentinha</h3>
+            <p>Pague no Pix pelo próprio site ou no balcão, e retire sua pizza.</p>
+          </li>
+        </ol>
+        <a href="#cardapio" class="btn btn-primary">Escolher minha pizza</a>
+      </div>
+    </section>
+
+    <!-- ============ CARDÁPIO (renderizado por js/main.js) ============ -->
+    <section id="cardapio" class="container menu">
+      <div class="menu-head">
+        <div>
+          <span class="eyebrow">Cardápio</span>
+          <h2>Escolha a sua.</h2>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Categorias do cardápio" id="menu-tabs"></div>
+      </div>
+
+      <p class="menu-note" id="menu-note">
+        Todas as pizzas no tamanho <strong data-tamanho>Grande (8 fatias)</strong>, por <strong data-preco-pizza>R$ 55,00</strong>.
+        Toque em <strong>Escolher</strong> para montar seu pedido — dois sabores viram meio a meio.
+      </p>
+
+      <div class="menu-grid" id="menu-grid" role="tabpanel" aria-live="polite"></div>
+    </section>
+
+    <!-- ============ SEU PEDIDO (inteira ou meio a meio) + PIX ============ -->
+    <section id="pedido" class="container order-section">
+      <div class="order-card">
+        <div class="order-preview">
+          <svg id="order-pizza" role="img" aria-label="Pizza ainda sem sabor" viewBox="0 0 320 320">
+            <circle cx="160" cy="160" r="156" fill="#9C6430"/>
+            <path id="order-pizza-left" d="M160 18 A142 142 0 0 0 160 302 Z" fill="#F1E2CC"/>
+            <path id="order-pizza-right" d="M160 18 A142 142 0 0 1 160 302 Z" fill="#F1E2CC"/>
+            <circle cx="160" cy="160" r="134" fill="none" stroke="#D99A4E" stroke-width="18"/>
+            <g id="order-pizza-cheese" fill="#F3DEB0" opacity="0.85">
+              <circle cx="100" cy="110" r="10"/>
+              <circle cx="80" cy="175" r="8"/>
+              <circle cx="120" cy="235" r="11"/>
+              <circle cx="220" cy="105" r="11"/>
+              <circle cx="245" cy="180" r="8"/>
+              <circle cx="205" cy="240" r="10"/>
+            </g>
+            <path id="order-pizza-divider" d="M160 6v308" stroke="#FFFFFF" stroke-width="5"/>
+          </svg>
+        </div>
+
+        <div class="order-form">
+          <div>
+            <span class="eyebrow">Seu pedido</span>
+            <h2>Ficou na dúvida? Leve dois sabores.</h2>
+            <p class="muted">Pizza <strong data-tamanho>Grande (8 fatias)</strong>. Um sabor é pizza inteira; dois sabores, meio a meio — mesmo preço.</p>
+          </div>
+
+          <div class="slots">
+            <button type="button" class="slot" id="slot-1">
+              <span class="slot-label">Metade 1</span>
+              <strong class="slot-name" id="slot-1-name">Escolha no cardápio</strong>
+            </button>
+            <button type="button" class="slot" id="slot-2">
+              <span class="slot-label">Metade 2</span>
+              <strong class="slot-name" id="slot-2-name">Opcional</strong>
+            </button>
+          </div>
+          <p class="slot-hint muted">Toque em uma metade para trocar o sabor dela.</p>
+
+          <div class="order-total">
+            <div class="order-summary">
+              <span class="muted" id="order-kind">Nenhum sabor escolhido</span>
+              <span class="price-big" id="order-price">R$ 0,00</span>
+            </div>
+            <div class="order-actions">
+              <button type="button" class="btn-link" id="order-clear" hidden>Limpar</button>
+              <a href="#cardapio" class="btn btn-primary is-disabled" id="order-send" aria-disabled="true">
+                <svg class="icon" aria-hidden="true"><use href="#icon-whatsapp"/></svg>
+                Pedir esta pizza
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagamento Pix: código "copia e cola" + QR Code, sem valor fixo -->
+        <div class="pix" id="pix">
+          <figure class="pix-qr-wrap">
+            <div class="pix-qr" id="pix-qr" role="img" aria-label="QR Code Pix da pizzaria"></div>
+            <figcaption>Leia pelo app do banco</figcaption>
+          </figure>
+          <div class="pix-info">
+            <span class="eyebrow">Pagamento</span>
+            <h3>Pague com Pix e retire sem fila</h3>
+            <p class="muted">No celular, toque em <strong>Copiar código Pix</strong> e cole no app do banco em “Pix copia e cola”. No computador, abra o <strong>app do banco</strong> no celular, vá em <strong>Pix → Ler QR Code</strong> e aponte para o código (a câmera comum do celular não lê Pix).</p>
+            <p class="pix-alert"><strong>Você digita o valor:</strong> some a pizza e o que mais pedir (refrigerante, etc.). Se tiver dúvida no total, a gente confirma no WhatsApp antes.</p>
+            <div class="pix-actions">
+              <button type="button" class="btn btn-primary" id="pix-copy-code">
+                <svg class="icon" aria-hidden="true"><use href="#icon-copy"/></svg>
+                Copiar código Pix
+              </button>
+              <button type="button" class="btn-link" id="pix-copy-key">Copiar só a chave</button>
+            </div>
+            <p class="pix-key">Chave Pix: <strong id="pix-key"></strong></p>
+            <p class="pix-note">Depois de pagar, mande o comprovante no WhatsApp junto com o pedido. Também aceitamos pagamento no balcão.</p>
+            <p class="pix-feedback" id="pix-feedback" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Barra fixa com o resumo do pedido (aparece ao escolher um sabor) -->
+    <a href="#pedido" class="order-bar" id="order-bar" hidden>
+      <span class="order-bar-text" id="order-bar-text"></span>
+      <span class="order-bar-cta">Ver pedido →</span>
+    </a>
+
+    <!-- ============ CONTATO ============ -->
+    <section id="contato" class="container contact">
+      <div class="contact-text">
+        <h2>Venha nos visitar</h2>
+        <a class="address-link" href="https://www.google.com/maps/search/?api=1&amp;query=Pizza+da+Edileuza%2C+BR-222%2C+93%2C+Vit%C3%B3ria+do+Mearim+-+MA%2C+65350-000" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg>
+          <address>
+            BR-222, nº 93<br>
+            Vitória do Mearim – MA · CEP 65350-000
+            <small>Abrir no Google Maps ↗</small>
+          </address>
+        </a>
+        <dl class="contact-list">
+          <dt>Horário</dt>
+          <dd>Segunda a domingo, das 18h às 22h</dd>
+          <dt>WhatsApp</dt>
+          <dd><a href="https://wa.me/5598988716178" target="_blank" rel="noopener">(98) 98871-6178</a></dd>
+        </dl>
+      </div>
+      <div class="map">
+        <iframe
+          title="Mapa: Pizza da Edileuza, BR-222, nº 93, Vitória do Mearim – MA"
+          src="https://www.google.com/maps?q=Pizza+da+Edileuza%2C+BR-222%2C+93%2C+Vit%C3%B3ria+do+Mearim+-+MA%2C+65350-000&amp;output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a class="btn btn-outline map-btn" href="https://www.google.com/maps/search/?api=1&amp;query=Pizza+da+Edileuza%2C+BR-222%2C+93%2C+Vit%C3%B3ria+do+Mearim+-+MA%2C+65350-000" target="_blank" rel="noopener">Como chegar</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">Pizza da Edileuza</span>
+      <span>© <span id="current-year">2026</span> Pizza da Edileuza · Todos os direitos reservados</span>
+    </div>
+  </footer>
+
+  <!-- ============ ÍCONES (sprite SVG reutilizado com <use>) ============ -->
+  <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+    <symbol id="icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/>
+    </symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+    </symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>
+    </symbol>
+    <symbol id="icon-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>
+    </symbol>
+    <symbol id="icon-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3c2 3 5 4 5 8a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 1-7z"/>
+    </symbol>
+    <symbol id="icon-basil" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 19C5 10 11 5 20 5c0 9-5 15-14 14z"/><path d="M5 19l9-9"/>
+    </symbol>
+    <symbol id="icon-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/>
+    </symbol>
+    <symbol id="icon-leaf" viewBox="0 0 100 60">
+      <path d="M4 30C24 2 76 2 96 30 76 58 24 58 4 30Z" fill="#4C9A2A"/>
+      <path d="M8 30H90M30 30l-10-10M50 30l-10-12M70 30l-8-10M30 30l-10 10M50 30l-10 12M70 30l-8 10" stroke="#2F6B22" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </symbol>
+  </svg>
+
+  <!-- Biblioteca que desenha o QR Code do Pix -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/pix.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
